@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org" lang="en">
 
-    <head>
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,86 +15,87 @@
 
 <body>
     <header class="header">
-    <div class="header__container _nav"> 
-    <div class="_nav__logo">
-        <a href="index.html " th:href="index">
-            <img src="../img/horizontal_on_white_by_logaster.png" alt="">
-        </a>
-    </div>
-    <div class="_nav__link _line">
-        <ul class="_nav__link-menu">
-            <li><a href="index.html#skill" th:href="@{index#skill}"  class="_nav__link-item slide">Skill</a></li>
-            <li><a href="index.html#project"   th:href="@{index#project}" class="_nav__link-item icon-setting slide">Project</a></li>
-            <li><a href="cv" class="_nav__link-item">Download CV</a></li>
-        </ul>
-    </div>
-</div>
-</header>
-
-        <div class="main__body">
-    <div class="main__container layout">
-
-        <div class="layout__card">
-            <div class="layout__card">
-                <div class="layout__box">
-                    <div class="layout__box-screen lbg">
-                        <img src="img/javaPet/telegram.png" alt="">
-                    </div>
-                    <div class="layout__box-cnt"> 
-                    <div class="layout__box-title _c_blue">Telegram bot</div>
-                    <div class="layout__box-subtitle">Java/ Spring/ RabitMQ/ MysqlDB, microservice architecture</div>
-                    <div class="layout__box-button _end">
-                        
-                        <a href="https://github.com/klewzow/telegtammSaverApplication.git" target="_blank">Code</a>
-                    </div>
-                </div>
-                </div>
+        <div class="header__container _nav">
+            <div class="_nav__logo">
+                <a href="index.html " th:href="index">
+                    <img src="../img/horizontal_on_white_by_logaster.png" alt="">
+                </a>
+            </div>
+            <div class="_nav__link _line">
+                <ul class="_nav__link-menu">
+                    <li><a href="index.html#skill" th:href="@{index#skill}" class="_nav__link-item slide">Skill</a></li>
+                    <li><a href="index.html#project" th:href="@{index#project}"
+                            class="_nav__link-item icon-setting slide">Project</a></li>
+                    <li><a href="cv" class="_nav__link-item">Download CV</a></li>
+                </ul>
             </div>
         </div>
-        <div class="layout__card">
+    </header>
+
+    <div class="main__body">
+        <div class="main__container layout">
+
             <div class="layout__card">
-                <div class="layout__box">
-                    <div class="layout__box-screen lbg">
-                        <img src="img/javaPet/parser.png" alt="">
+                <div class="layout__card">
+                    <div class="layout__box">
+                        <div class="layout__box-screen lbg">
+                            <img src="img/javaPet/telegram.png" alt="">
+                        </div>
+                        <div class="layout__box-cnt">
+                            <div class="layout__box-title _c_blue">Telegram bot</div>
+                            <div class="layout__box-subtitle">Java/ Spring/ RabitMQ/ MysqlDB, microservice architecture
+                            </div>
+                            <div class="layout__box-button _end">
+
+                                <a href="https://github.com/klewzow/telegtammSaverApplication.git"
+                                    target="_blank">Code</a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="layout__box-cnt"> 
-                    <div class="layout__box-title _c_fiolet">Parser ek.ua</div>
-                    <div class="layout__box-subtitle">Java/ JavaFx/ Spring/ Jsoup/ MysqlDB, H2DataBase</div>
-                    <div class="layout__box-button _end">
-                        
-                        <a href="  https://github.com/klewzow/parser_e-katalog.git" target="_blank">Code</a>
-                    </div>
-                </div>
                 </div>
             </div>
+            <div class="layout__card">
+                <div class="layout__card">
+                    <div class="layout__box">
+                        <div class="layout__box-screen lbg">
+                            <img src="img/javaPet/parser.png" alt="">
+                        </div>
+                        <div class="layout__box-cnt">
+                            <div class="layout__box-title _c_fiolet">Parser ek.ua</div>
+                            <div class="layout__box-subtitle">Java/ JavaFx/ Spring/ Jsoup/ MysqlDB, H2DataBase</div>
+                            <div class="layout__box-button _end">
+
+                                <a href="  https://github.com/klewzow/parser_e-katalog.git" target="_blank">Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
-
-         
-      
-
-
-      </div>
-</div>
-
-        <footer class="footer">
-
-    <div class="footer__container">
-        <div class="footer__link">
-            <a href="mailto:klewzow@gmail.com"> <span class="icon-google_min footer__item"></span></a>
-            <a href="https://github.com/klewzow?tab=repositories" target="_blank"> <span
-                    class="icon-github footer__item"></span></a>
-            <a href="https://t.me/klevtsovDmitry" target="_blank"> <span class="icon-telegram footer__item"></span></a>
-            <a href="https://wa.me/+380633743814" target="_blank"> <span class="icon-whatsapp footer__item"></span></a>
-        </div>
-        <div class="footer__copyright">
-            copyright © 2022
-        </div>
-
     </div>
-</footer>
+
+    <footer class="footer">
+
+        <div class="footer__container">
+            <div class="footer__link">
+                <a href="mailto:klewzow@gmail.com"> <span class="icon-google_min footer__item"></span></a>
+                <a href="https://github.com/klewzow?tab=repositories" target="_blank"> <span
+                        class="icon-github footer__item"></span></a>
+                <a href="https://t.me/klevtsovDmitry" target="_blank"> <span
+                        class="icon-telegram footer__item"></span></a>
+                <a href="https://wa.me/+380633743814" target="_blank"> <span
+                        class="icon-whatsapp footer__item"></span></a>
+            </div>
+            <div class="footer__copyright">
+                copyright © 2023
+            </div>
+
+        </div>
+    </footer>
 
 
-              <script src="js/script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
- </html>
+</html>
